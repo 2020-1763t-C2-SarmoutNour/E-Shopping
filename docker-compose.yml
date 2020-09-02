@@ -7,7 +7,7 @@ services:
 
 #  authentication-service:
 
-#  common-data-service:
+#  data-service:
 
 #  search-suggestion-service:
 
