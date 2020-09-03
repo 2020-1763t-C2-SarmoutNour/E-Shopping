@@ -17,7 +17,7 @@ services:
     build:
       context: .
       dockerfile: ./client/Dockerfile
-    container_name: react-service-container
+    container_name: react-website-container
     stdin_open: true
     restart: always
     expose:

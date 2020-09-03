@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD [ "npm", "react-scripts start" ]
+CMD [ "npm install", "run-script", "start_docker_dev" ]
