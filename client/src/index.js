@@ -10,10 +10,7 @@ import thunk from 'redux-thunk';
 import 'semantic-ui-css/semantic.min.css';
 import '../src/styles/library/swiper/swiper.css';
 import '../src/styles/library/swiper/swiper.min.css';
-import log from 'loglevel';
 import ErrorBoundary from './ErrorBoundary';
-
-log.disableAll(true);
 
 const composeEnhancers =
   window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose();
