@@ -4,7 +4,6 @@ import ContinueButton from './continueButton';
 import { withStyles } from '@material-ui/core/styles';
 import { Field, reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
-import { stateCodes } from '../../../constants/stateCodes';
 import { setShippingAddress } from '../../../actions';
 import { ModalConfirmation } from '../../ui/modalConfirmation';
 import { SummaryCard } from './summaryCard';
@@ -74,19 +73,6 @@ class ShippingAddressForm extends Component {
       );
     };
 
-    const renderStateCodes = () => {
-      let stateCodeList = [];
-
-      for (const [code] of Object.entries(stateCodes)) {
-        stateCodeList.push(
-          <MenuItem key={code} value={code}>
-            {code}
-          </MenuItem>,
-        );
-      }
-      return stateCodeList;
-    };
-
     const renderFormTextField = (label, name) => {
       return (
         <Grid item container xs={11} sm={8}>
@@ -119,27 +105,6 @@ class ShippingAddressForm extends Component {
                     shrink: true,
                   }}
                 />
-              </Grid>
-
-              <Grid item container xs={11} sm={8}>
-                <Grid item container xs={6} style={{ paddingRight: 15 }}>
-                  <Field
-                    name="zipCode"
-                    component={renderReduxTextField}
-                    label="Zip Code"
-                  />
-                </Grid>
-
-                <Grid item container xs={6}>
-                  <Field
-                    name="stateCode"
-                    label="State"
-                    component={renderReduxTextField}
-                    props={{ selectField: true }}
-                  >
-                    {renderStateCodes()}
-                  </Field>
-                </Grid>
               </Grid>
 
               {renderFormTextField('City', 'city')}
