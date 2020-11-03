@@ -157,10 +157,6 @@ services:
     depends_on:
       - mysql-db
       - redis-cache
-      - authentication-service
-      - common-data-service
-      - search-suggestion-service
-      - payment-service
     networks:
       - spring-microservices
 networks:
