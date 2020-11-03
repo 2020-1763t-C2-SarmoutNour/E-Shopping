@@ -28,7 +28,7 @@ services:
   authentication-service:
     build:
       context: .
-      dockerfile: ./server/authentication-service/Dockerfile-dev
+      dockerfile: ./server/authentication-service/Dockerfile
     container_name: authentication-service-container
     restart: always
     depends_on:
@@ -55,7 +55,7 @@ services:
   common-data-service:
     build:
       context: .
-      dockerfile: ./server/common-data-service/Dockerfile-dev
+      dockerfile: ./server/common-data-service/Dockerfile
     container_name: common-data-service-container
     restart: always
     depends_on:
@@ -85,7 +85,7 @@ services:
   search-suggestion-service:
     build:
       context: .
-      dockerfile: ./server/search-suggestion-service/Dockerfile-dev
+      dockerfile: ./server/search-suggestion-service/Dockerfile
     container_name: search-suggestion-service-container
     restart: always
     depends_on:
@@ -109,7 +109,7 @@ services:
   payment-service:
     build:
       context: .
-      dockerfile: ./server/payment-service/Dockerfile-dev
+      dockerfile: ./server/payment-service/Dockerfile
     container_name: payment-service-container
     restart: always
     depends_on:
