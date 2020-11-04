@@ -1,4 +1,4 @@
-package com.ujjaval.ecommerce.authenticationservice.config;
+package com.cnam.eshopping.authenticationservice.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

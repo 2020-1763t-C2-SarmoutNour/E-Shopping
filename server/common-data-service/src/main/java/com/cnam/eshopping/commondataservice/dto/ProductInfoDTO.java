@@ -1,6 +1,6 @@
 package com.cnam.eshopping.commondataservice.dto;
 
-import com.ujjaval.ecommerce.commondataservice.entity.sql.info.ProductInfo;
+import com.cnam.eshopping.commondataservice.entity.sql.info.ProductInfo;
 import lombok.*;
 
 import java.io.Serializable;

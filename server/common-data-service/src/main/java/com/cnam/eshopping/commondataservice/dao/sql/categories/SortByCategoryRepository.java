@@ -1,6 +1,6 @@
-package com.ujjaval.ecommerce.commondataservice.dao.sql.categories;
+package com.cnam.eshopping.commondataservice.dao.sql.categories;
 
-import com.ujjaval.ecommerce.commondataservice.entity.sql.categories.SortByCategory;
+import com.cnam.eshopping.commondataservice.entity.sql.categories.SortByCategory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
