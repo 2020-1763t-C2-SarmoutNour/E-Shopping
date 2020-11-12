@@ -36,6 +36,10 @@ Nour Sarmout **1763t**
 - Store cart's product information in cookies
 - Payment service using Stripe's API to buy products (fake payment)
 
+## Known Issues
+
+- If the docker-compose process cuts midway, it most probably means it's a connection issue, retry the docker-compose again
+
 ## Tools and References
 
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
