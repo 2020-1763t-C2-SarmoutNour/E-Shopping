@@ -39,6 +39,7 @@ Nour Sarmout **1763t**
 ## Known Issues
 
 - If the docker-compose process cuts midway, it most probably means it's a connection issue, retry the docker-compose again
+- Payment stopped working, needs investigation
 
 ## Tools and References
 
