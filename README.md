@@ -12,7 +12,7 @@ Nour Sarmout **1763t**
 4. Replace `REACT_APP_STRIPE_PUBLISH_KEY` and `STRIPE_SECRET_KEY` with their appropriate values from [here](https://dashboard.stripe.com/register)
 5. Run the command `docker network create spring-microservices` inside the repository
 6. Run the command `docker-compose up --build` inside the repository
-7. Head to the assigned port for the react website, currently: http://localhost:3001
+7. Head to the assigned port for the react website, currently: http://localhost:3000
 
 ## Microservices
 
